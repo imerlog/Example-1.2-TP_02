@@ -20,6 +20,7 @@ int main()
          alarmLed = ON;
             printf("%s\n", "se detecto algo y el led  prendido");
       } else {
+          printf("La alarma esta apagada\n");
          alarmLed = OFF;
       }
    }
